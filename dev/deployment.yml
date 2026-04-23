@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: gitops-app
-        image: ghcr.io/haseef-ahamed/gitops-app:sha-128472e
+        image: ghcr.io/haseef-ahamed/gitops-app:sha-b7b80cb
         ports:
         - containerPort: 3000
         env:
