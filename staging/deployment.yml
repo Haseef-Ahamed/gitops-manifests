@@ -19,12 +19,12 @@ spec:
     spec:
       containers:
       - name: gitops-app
-        image: ghcr.io/haseef-ahamed/gitops-app:sha-ff51a4f
+        image: ghcr.io/haseef-ahamed/gitops-app:sha-5f54c57
         ports:
         - containerPort: 3000
         env:
         - name: APP_VERSION
-          value: "v8.0.0"
+          value: v11.0.0
         - name: APP_ENV
           value: "staging"
         resources:
